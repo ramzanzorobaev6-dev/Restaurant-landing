@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaunrant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header container">
+        <a href="./index.html" class="header__logo">
+            <img src="./images/TesteNest.png" alt="logo-image" class="header__logo-image"  loading="lazy">
+        </a>
+        <nav class="header__navigation">
+            <ul class="header__navigation-list">
+                <li class="header__navigation-item">
+                    <a href="#" class="header__navigation-link header__link-select transition-smooth text-xl text-basic">Home</a>
+                </li>
+                <li class="header__navigation-item"> 
+                    <a href="#" class="header__navigation-link transition-smooth text-xl text-basic">About Us</a>
+                </li>
+                <li class="header__navigation-item">
+                    <a href="#" class="header__navigation-link header__link-select transition-smooth text-xl text-basic">Shop</a>
+                </li>
+                <li class="header__navigation-item">
+                    <a href="#" class="header__navigation-link header__link-select transition-smooth text-xl text-basic">Blog</a>
+                </li>
+                <li class="header__navigation-item">
+                    <a href="#" class="header__navigation-link header__link-select transition-smooth text-xl text-basic">Pages</a>
+                </li>
+                <li class="header__navigation-item">
+                    <a href="#" class="header__navigation-link transition-smooth text-xl text-basic">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__buttons">
+            <div class="header__button-wrapper" aria-label="bucket-icon"></div>
+            <button class="header__button transition-smooth text-button text-basic" aria-label="Reserve a Table">Contact Us</button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero container">
+            <h2 class="visually-hidden">About Restaunrant</h2>
+            <div class="hero__content">
+                <div class="hero__content-title-container">
+                    <p class="hero__content-title title-xxl title-basic">Best Food for</p>
+                    <p class="hero__content-title-accent title-xxl title-basic">Best Restaurants</p>
+                    <p class="hero__content-caption title-xs title-basic">Arriving from Paris in 1986</p>
+                </div>
+                <form method="get" class="hero__form">
+                    <fieldset class="hero__form-inputs">
+                        <label for="text" class="visually-hidden">No of Guest</label>
+                        <input type="text" placeholder="No of Guest" id="text" class="hero__form-input hero__form-input-first text-lg text-basic">
+                        
+                        <label for="hero-date" class="visually-hidden">Date</label>
+                        <input type="date" placeholder="Date" id="hero-date"  class="hero__form-input text-lg text-basic">
+
+                        <label for="hero-time" class="visually-hidden">Time</label>
+                        <input type="time" placeholder="Time" id="hero-time"  class="hero__form-input text-lg text-basic">
+                    </fieldset>
+                    <button class="hero__form-button button title-xs title-basic transition-smooth" aria-label="Reserve a Table">Reserve a Table</button>
+                </form>
+            </div>
+            <div class="hero__illustrations">
+                <div class="hero__illustrations-promo">
+                    <span class="hero__illustration-promo-icon"></span>
+                    <p class="hero__illustrations-promo-desc title-xs title-basic">Free Delivery 7 Days a Week</p>
+                </div>
+                <div class="hero__illustrations-image-wrapper">
+                    <img src="./images/hero/carrots.png" alt="carrots" class="hero__illustrations-image"  loading="lazy">
+                    <img src="./images/hero/meat.png" alt="meat" class="hero__illustrations-image"  loading="lazy">
+                </div>
+            </div>
+        </section>
+        <section class="welcome container">
+            <div class="welcome__illustration">
+                <img src="./images/welcome/image.png" alt="cooking" class="welcome__illustration-image"  loading="lazy">
+            </div>
+            <div class="welcome__description">
+                <div class="welcome__description-content">
+                    <p class="welcome__description-content-caption title-xs title-basic">Welcome to Foodio</p>
+                    <div class="welcome__description-content-title-wrapper">
+                        <h2 class="welcome__description-content-title title-xxl title-basic">Feel The Taste</h2>
+                        <h2 class="welcome__description-content-title title-xxl title-basic">of Foods</h2>
+                    </div>
+                    <p class="welcome__description-content-text text-lg text-basic">Nisl quam nestibulum ac quam nec odio elementu aucan ligula. Orci varius natoque pena tibus et maum ac quam nec odio rbine.</p>
+                </div>
+                <div class="welcome__description-work">
+                    <p class="welcome__description-work-time title-xs text-basic">Monday to Friday – 11:30 TO 2:00</p>
+                    <p class="welcome__description-work-phone title-sm title-basic transition-smooth">+44 1298 123 987</p>
+                </div>
+            </div>
+            <div class="welcome__accent-illustration">
+                <img src="./images/welcome/accent-image.png" alt="happy women" class="welcome__accent-illustration-image"  loading="lazy">
+                <div class="welcome__accent-illustration-icon-wrapper">
+                    <img src="./images/welcome/icon-image.png" alt="round image with circle text" class="welcome__accent-illustration-icon "  loading="lazy">
+                </div>
+            </div>
+        </section>
+        <section class="good container">
+            <h2 class="visually-hidden">Why us?</h2>
+            <div class="good__title-wrapper">
+                <h3 class="good__title title-xxl title-basic">Good Food Steak & Restaurant</h3>
+            </div>
+            <div class="good__promo">
+                <div class="good__promo-discount">
+                    <p class="good__promo-discount-text title-xs title-basic">Upto</p>
+                    <p class="good__promo-discount-text good__promo-discount-accent-text title-xxl title-basic">20%</p>
+                    <p class="good__promo-discount-text title-xs title-basic">Discount</p>
+                </div>
+                <img src="./images/good/food.png" alt="steak-image" class="good__promo-image"  loading="lazy">
+            </div>
+            <div class="good__checkmarks">
+                <div class="good__checkmarks-container">
+                    <p class="good__checkmark-item title-xs title-basic">Quality foods natural gradient</p>
+                    <p class="good__checkmark-item title-xs title-basic">Award-winning Restaurant</p>
+                    <p class="good__checkmark-item title-xs title-basic">Healthy Food</p>
+                    <p class="good__checkmark-item title-xs title-basic">individually styled bedrooms</p>
+                </div>
+                <button class="good__checkmark-button button title-xs title-basic transition-smooth">Reserve a Table</button>
+            </div>
+        </section>
+        <section class="sponsors container">
+            <h2 class="visually-hidden">Restaunrant sponsors</h2>
+            <h3 class="sponsors__title title-md title-basic">Highly Trusted Sponsor</h3>
+            <div class="sponsors__content">
+                <img src="./images/sponsors/1.png" alt="sponsor-logo" class="sponsor__logo-image"  loading="lazy">
+                <img src="./images/sponsors/2.png" alt="sponsor-logo" class="sponsor__logo-image"  loading="lazy">
+                <img src="./images/sponsors/3.png" alt="sponsor-logo" class="sponsor__logo-image"  loading="lazy">
+                <img src="./images/sponsors/4.png" alt="sponsor-logo" class="sponsor__logo-image"  loading="lazy">
+                <img src="./images/sponsors/5.png" alt="sponsor-logo" class="sponsor__logo-image"  loading="lazy">
+                <img src="./images/sponsors/6.png" alt="sponsor-logo" class="sponsor__logo-image"  loading="lazy">
+            </div>
+        </section>
+        <section class="menu container">
+            <h2 class="visually-hidden">Restaunrant menu</h2>
+            <h3 class="menu__title title-xxl title-basic">Delicious Menus</h3>
+            <div class="menu__choice">
+                <div class="menu__choice-container">
+                    <h4 class="menu__choice-container-subtitle title-md title-basic">Breakfast</h4>
+                    <div class="menu__choice-container-list">
+                        <div class="menu__choice-list-item">
+                            <div class="menu__choice-item-description">
+                                <h5 class="menu__choice-description-heading title-sm title-basic">Dasi Breakfast</h5>
+                                <p class="menu__choice-item-price title-sm title-basic">$12.00</p>
+                            </div>
+                            <p class="menu__choice-description-paragrath text-lg text-basic">Sausage, three rashers of streaky bacon, two fried eggs</p>
+                        </div>
+                        <div class="menu__choice-list-item">
+                            <div class="menu__choice-item-description">
+                                <h5 class="menu__choice-description-heading title-sm title-basic">Three Meat Skillet</h5>
+                                <p class="menu__choice-item-price title-sm title-basic">$9.00</p>
+                            </div>
+                            <p class="menu__choice-description-paragrath text-lg text-basic">Hickory House bacon, sausage, ham, cheddar cheese</p>
+                        </div>
+                        <div class="menu__choice-list-item">
+                            <div class="menu__choice-item-description">
+                                <h5 class="menu__choice-description-heading title-sm title-basic">Breakfast Bowl</h5>
+                                <p class="menu__choice-item-price title-sm title-basic">$14.00</p>
+                            </div>
+                            <p class="menu__choice-description-paragrath text-lg text-basic">Three eggs, tater tots, choice of bacon or sausage, shredded cheese</p>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="menu__choice-container">
+                    <h4 class="menu__choice-container-subtitle title-md title-basic">Lunch</h4>
+                    <div class="menu__choice-container-list">
+                        <div class="menu__choice-list-item">
+                            <div class="menu__choice-item-description">
+                                <h5 class="menu__choice-description-heading title-sm title-basic">Potato Skins</h5>
+                                <p class="menu__choice-item-price title-sm title-basic">$9.00</p>
+                            </div>
+                            <p class="menu__choice-description-paragrath text-lg text-basic">Sour cream, bacon, cheddar cheese, olive oil</p>
+                        </div>
+                        <div class="menu__choice-list-item">
+                            <div class="menu__choice-item-description">
+                                <h5 class="menu__choice-description-heading title-sm title-basic">Apple Pie Pancakes</h5>
+                                <p class="menu__choice-item-price title-sm title-basic">$9.00</p>
+                            </div>
+                            <p class="menu__choice-description-paragrath text-lg text-basic">Spices. Slather with butter and dunk them in some homemade vanilla</p>
+                        </div>
+                        <div class="menu__choice-list-item">
+                            <div class="menu__choice-item-description">
+                                <h5 class="menu__choice-description-heading title-sm title-basic">Sweet Cream Waffle</h5>
+                                <p class="menu__choice-item-price title-sm title-basic">$9.00</p>
+                            </div>
+                            <p class="menu__choice-description-paragrath text-lg text-basic">Refrigerated. 2 Eggs ; Baking & Spices. 2 cups</p>
+                        </div>
+                        <div class="menu__choice-list-item">
+                            <div class="menu__choice-item-description">
+                                <h5 class="menu__choice-description-heading title-sm title-basic">Caesar Wrap</h5>
+                                <p class="menu__choice-item-price title-sm title-basic">$9.00</p>
+                            </div>
+                            <p class="menu__choice-description-paragrath text-lg text-basic">This classic handheld with tender chicken, Parmesan cheese and chopped</p>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="menu__choice-container">
+                    <h4 class="menu__choice-container-subtitle title-md title-basic">Dinner</h4>
+                    <div class="menu__choice-container-list">
+                        <div class="menu__choice-list-item">
+                            <div class="menu__choice-item-description">
+                                <h5 class="menu__choice-description-heading title-sm title-basic">Beef Lasagna Food</h5>
+                                <p class="menu__choice-item-price title-sm title-basic">$9.00</p>
+                            </div>
+                            <p class="menu__choice-description-paragrath text-lg text-basic">2 olive oil, plus a little for the dish; 750g lean beef mince; 90g pack prosciutto</p>
+                        </div>
+                        <div class="menu__choice-list-item">
+                            <div class="menu__choice-item-description">
+                                <h5 class="menu__choice-description-heading title-sm title-basic">Chicken Mayo Roll</h5>
+                                <p class="menu__choice-item-price title-sm title-basic">$9.00</p>
+                            </div>
+                            <p class="menu__choice-description-paragrath text-lg text-basic">Cook the chicken in a grill pan, once the chicken is cooked place chicken</p>
+                        </div>
+                        <div class="menu__choice-list-item">
+                            <div class="menu__choice-item-description">
+                                <h5 class="menu__choice-description-heading title-sm title-basic">Mutton Curry</h5>
+                                <p class="menu__choice-item-price title-sm title-basic">$9.00</p>
+                            </div>
+                            <p class="menu__choice-description-paragrath text-lg text-basic">Mutton Curry</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="solution container">
+            <h2 class="visually-hidden">Our solutions</h2>
+            <div class="solution__header">
+                <div class="solution__header-heading">
+                    <p class="solution__header-heading-caption title-xs title-basic">Best Solutions</p>
+                    <h3 class="solution__header-heading-title title-xxl title-basic">We Provide Best Services</h3>
+                </div>
+                <p class="solution__header-paragrath text-xl text-basic">Nisl quam nestibulum ac quam nec odio elementu aucan ligula. Orci varius natoque pena tibus et maurient monte nascete ridiculus mus nellentesque um ac quam nec odio rbine.</p>
+            </div>
+            <div class="solution__content">
+                <div class="solution__content-card">
+                    <div class="solution__content-card-icon solution__content-card-icon--tea"></div>
+                    <h3 class="solution__content-card-title title-sm title-basic">Afternoon Tea</h3>
+                    <p class="solution__content-card-paragrath text-xl text-basic">Nisl quam nestibulum ac quam nec aucan ligula Orci varius.</p>
+                </div>
+                <div class="solution__content-card">
+                    <div class="solution__content-card-icon solution__content-card-icon--store"></div>
+                    <h3 class="solution__content-card-title title-sm title-basic">Takeaway & Delivery</h3>
+                    <p class="solution__content-card-paragrath text-xl text-basic">Nisl quam nestibulum ac quam nec aucan ligula Orci varius.</p>
+                </div>
+                <div class="solution__content-card">
+                    <div class="solution__content-card-icon solution__content-card-icon--coctail"></div>
+                    <h3 class="solution__content-card-title title-sm title-basic">Wine & Cocktails</h3>
+                    <p class="solution__content-card-paragrath text-xl text-basic">Nisl quam nestibulum ac quam nec aucan ligula Orci varius.</p>
+                </div>
+                <div class="solution__content-card">
+                    <div class="solution__content-card-icon solution__content-card-icon--dining"></div>
+                    <h3 class="solution__content-card-title title-sm title-basic">Alfresco Dining</h3>
+                    <p class="solution__content-card-paragrath text-xl text-basic">Nisl quam nestibulum ac quam nec aucan ligula Orci varius.</p>
+                </div>
+            </div>
+        </section>
+        <section class="deal container">
+            <h2 class="visually-hidden">Deal of the week</h2>
+            <h3 class="deal__title title-xxl title-basic">Deal of the week</h3>
+            <div class="deal__content">
+                <div class="deal__content-heading">
+                    <p class="deal__content-heading-caption title-sm title-basic">Sale up to 7% off</p>
+                    <h4 class="deal__content-heading-title title-md title-basic">Shroom Bacon Burger</h4>
+                    <div class="deal__content-heading-pluses">
+                        <p class="deal__content-heading-pluses-text title-xs title-basic">Fresh & Tasty</p>
+                        <p class="deal__content-heading-pluses-text title-xs title-basic">Best in organic foods</p>
+                        <p class="deal__content-heading-pluses-text title-xs title-basic">100 Fresh Ingredients</p>
+                        <p class="deal__content-heading-pluses-text title-xs title-basic">Better for your Health</p>
+                    </div>
+                    <div class="deal__content-heading-buy">
+                        <div class="deal__content-heading-buy-price">
+                            <p class="deal__content-heading-buy-price-old title-sm title-basic">$21.76</p>
+                            <p class="deal__content-heading-buy-price-new title-md title-basic"><span>$</span>11.76</p>
+                        </div>
+                        <button class="deal__content-heading-buy-button button title-xs title-basic transition-smooth">Add to cart</button>
+                    </div>
+                </div>
+                <div class="deal__content-illustration">
+                    <figure class="deal__content-illustration-container">
+                        <img src="./images/deal/mushroom-dish.png" alt="mushroom dishes" class="deal__content-illustration-image" loading="lazy">
+                        <figcaption class="deal__content-illustration-wrapper">
+                            <div class="deal__content-illustration-wrapper-item">
+                                <p class="deal__content-illustration-wrapper-item-count title-md title-basic">482</p>
+                                <p class="deal__content-illustration-wrapper-item-value title-xs title-basic">days</p>
+                            </div>
+                            <div class="deal__content-illustration-wrapper-item">
+                                <p class="deal__content-illustration-wrapper-item-count title-md title-basic">04</p>
+                                <p class="deal__content-illustration-wrapper-item-value title-xs title-basic">hours</p>
+                            </div>
+                            <div class="deal__content-illustration-wrapper-item">
+                                <p class="deal__content-illustration-wrapper-item-count title-md title-basic">28</p>
+                                <p class="deal__content-illustration-wrapper-item-value title-xs title-basic">mins</p>
+                            </div>
+                            <div class="deal__content-illustration-wrapper-item">
+                                <p class="deal__content-illustration-wrapper-item-count title-md title-basic">05</p>
+                                <p class="deal__content-illustration-wrapper-item-value title-xs title-basic">sec</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="events container">
+            <h2 class="visually-hidden">Private dining and Events on Restaurant</h2>
+            <div class="events__container-wrapper">
+                <div class="events__container-wrapper-gallery">
+                    <div class="events__container-wrapper-gallery-row">
+                        <img src="./images/events/first.png" alt="speical place" class="events__container-wrapper-gallery-row-image" loading="lazy">
+                        <img src="./images/events/second.png" alt="romantic dinner" class="events__container-wrapper-gallery-row-image" loading="lazy">
+                    </div>
+                    <div class="events__container-wrapper-gallery-row">
+                        <img src="./images/events/third.png" alt="on the street" class="events__container-wrapper-gallery-row-image" loading="lazy">
+                        <img src="./images/events/fourth.png" alt="vip zone" class="events__container-wrapper-gallery-row-image" loading="lazy">
+                    </div>
+                </div>
+                <div class="events__container-wrapper-description">
+                    <h3 class="events__container-wrapper-description-title title-xl title-basic">Private Dining and Events</h3>
+                    <p class="events__container-wrapper-description-paragrath text-xxl text-basic">With many private dining spaces, M is the perfect place to host your event or gathering</p>
+                    <button class="events__container-wrapper-description-button button title-sm title-basic transition-smooth">Enquire Now</button>
+                    <a href="#" class="events__container-wrapper-description-link title-sm title-basic transition-smooth">Booking: +44 1298 123 987</a>
+                </div>
+            </div>
+        </section>
+        <section class="video container">
+            <h2 class="visually-hidden">Our videos</h2>
+            <div class="video__content">
+                <div class="video__content-description">
+                    <p class="video__content-description-caption title-sm title-basic">Thanks for Watch Video</p>
+                    <h3 class="video__content-description-title title-xxl title-basic">Highlighting Its Unique Features and Experiences</h3>
+                </div>
+                <div class="video__content-container">
+                    <div class="video__content-card">
+                        <p class="video__content-card-title title-md title-basic">14 Years</p>
+                        <p class="video__content-card-title title-md title-basic">Experience</p>
+                    </div>
+                    <button class="video__content-button title-xs title-basic transition-smooth">Watch Video</button>
+                </div>
+            </div>
+            <div class="video__illustration">
+                <div class="video__illustration-wrapper">
+                    <img src="./images/video/coffee.png" alt="cup of coffee" class="video__illustration-image video__illustration-image--coffee" loading="lazy">
+                    <img src="./images/video/soup.png" alt="tomateo soup" class="video__illustration-image video__illustration-image--soup" loading="lazy">
+                    <img src="./images/video/cafe.png" alt="coffe house" class="video__illustration-image video__illustration-image--house" loading="lazy">
+                </div>
+                <p class="video__illustration-paragrath title-xs title-basic">Great Hospitality and Entertainment</p>
+            </div>
+        </section>
+        <section class="news container">
+            <h2 class="visually-hidden">Our news</h2>
+            <h3 class="news__title title-xxl title-basic">Recent News</h3>
+            <div class="news__container">
+                <div class="news__container-card">
+                    <img src="./images/news/Creamy Chicken Alfredo.png" alt="Creamy Chicken Alfredo" class="news__container-card-image" loading="lazy">
+                    <p class="news__container-card-date title-xs title-basic">April 6, 2023</p>
+                    <p class="news__container-card-place title-sm title-basic">Creamy Chicken Alfredo</p>
+                    <div class="news__container-card-author">
+                        <img src="./images/news/author.png" alt="author image" class="news__container-card-author-image" loading="lazy">
+                        <p class="news__container-card-author-name title-xs title-basic">Willimes Thomas</p>
+                    </div>
+                </div>
+                <div class="news__container-card">
+                    <img src="./images/news/Air Fryer Salmon.png" alt="Air Fryer Salmon" class="news__container-card-image" loading="lazy">
+                    <p class="news__container-card-date title-xs title-basic">April 6, 2023</p>
+                    <p class="news__container-card-place title-sm title-basic">Air Fryer Salmon</p>
+                    <div class="news__container-card-author">
+                        <img src="./images/news/author.png" alt="author image" class="news__container-card-author-image" loading="lazy">
+                        <p class="news__container-card-author-name title-xs title-basic">Willimes Thomas</p>
+                    </div>
+                </div>
+                <div class="news__container-card">
+                    <img src="./images/news/Supporting food flavors.png" alt="Supporting food flavors" class="news__container-card-image" loading="lazy">
+                    <p class="news__container-card-date title-xs title-basic">April 6, 2023</p>
+                    <p class="news__container-card-place title-sm title-basic">Supporting food flavors</p>
+                    <div class="news__container-card-author">
+                        <img src="./images/news/author.png" alt="author image" class="news__container-card-author-image" loading="lazy">
+                        <p class="news__container-card-author-name title-xs title-basic">Willimes Thomas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reservation container">
+            <h2 class="visually-hidden">Reservation and Dining table</h2>
+            <div class="reservation__header">
+                <p class="reservation__header-caption title-sm title-basic">Get in Touch</p>
+                <h3 class="reservation__header-title title-xxl title-basic">Reservation Table & Enjoy Dining Table</h3>
+            </div>
+            <div class="reservation__content">
+                <div class="reservation__content-contact">
+                    <div class="reservation__content-contact-item">
+                        <div class="reservation__content-contact-item-icon"></div>
+                        <div class="reservation__content-contact-item-description">
+                            <p class="reservation__content-contact-item-description-caption title-xs title-basic">for booking</p>
+                            <a href="#" class="reservation__content-contact-item-description-link title-xs title-basic transition-smooth">+1 (850) 344 0 66</a>
+                        </div>
+                    </div>
+                    <div class="reservation__content-contact-item">
+                        <div class="reservation__content-contact-item-icon reservation__content-contact-item-icon--gmail"></div>
+                        <div class="reservation__content-contact-item-description">
+                            <p class="reservation__content-contact-item-description-caption title-xs title-basic">for private dining</p>
+                            <a href="#" class="reservation__content-contact-item-description-link title-xs title-basic transition-smooth">info@foodio.com</a>
+                        </div>
+                    </div>
+                    <div class="reservation__content-contact-item">
+                        <div class="reservation__content-contact-item-icon reservation__content-contact-item-icon--location"></div>
+                        <div class="reservation__content-contact-item-description">
+                            <p class="reservation__content-contact-item-description-caption title-xs title-basic">location</p>
+                            <a href="#" class="reservation__content-contact-item-description-link title-xs title-basic transition-smooth">New Street Town 2512x (U.S)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="reservation__content-form-container">
+                    <form class="reservation__content-form">
+                        <label for="guest-count" class="visually-hidden">No of Guest</label>
+                        <input type="text" id="guest-count" class="reservation__content-form-input" placeholder="No of Guest">
+
+                        <label for="full-name" class="visually-hidden">Full Name</label>
+                        <input type="text" id="full-name" class="reservation__content-form-input" placeholder="Full Name">
+
+                        <label for="phone" class="visually-hidden">Phone No</label>
+                        <input type="tel" id="phone" class="reservation__content-form-input" placeholder="Phone No">
+
+                        <label for="date" class="visually-hidden">Date</label>
+                        <input type="date" id="date" class="reservation__content-form-input" placeholder="Date">
+
+                        <label for="time" class="visually-hidden">Time</label>
+                        <input type="time" id="time" class="reservation__content-form-input" placeholder="Time">
+
+                        <button class="reservation__content-form-button button title-xs title-basic">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__wrapper container">
+            <div class="footer__worktime container">
+                <img src="./images/footer/logo.png" alt="logo" class="footer__worktime-logo" loading="lazy">
+                <div class="footer__worktime-description">
+                    <p class="footer__worktime-description-open title-xs title-basic">Tuesday – Saturday: 12:00pm – 23:00pm</p>
+                    <p class="footer__worktime-description-close title-xs title-basic">Closed on Sunday</p>
+                </div>
+                <p class="footer__worktime-rating title-xs title-basic">5 star rated on TripAdvisor</p>
+            </div>
+            <nav class="footer__navigation">
+                <div class="footer__navigation-menu">
+                    <h3 class="footer__navigation-menu-title title-md title-basic">About</h3>
+                    <ul class="footer__navigation-menu-list">
+                        <li class="footer__navigation-menu-item">
+                            <a href="#" class="footer__navigation-menu-link text-lg text-basic transition-smooth">Fredoka One</a>
+                        </li>
+                        <li class="footer__navigation-menu-item">
+                            <a href="#" class="footer__navigation-menu-link text-lg text-basic transition-smooth">Special Dish</a>
+                        </li>
+                        <li class="footer__navigation-menu-item">
+                            <a href="#" class="footer__navigation-menu-link text-lg text-basic transition-smooth">Reservation</a>
+                        </li>
+                        <li class="footer__navigation-menu-item">
+                            <a href="#" class="footer__navigation-menu-link text-lg text-basic transition-smooth">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__navigation-menu">
+                    <h3 class="footer__navigation-menu-title title-md title-basic">Menu</h3>
+                    <ul class="footer__navigation-menu-list">
+                        <li class="footer__navigation-menu-item">
+                            <a href="#" class="footer__navigation-menu-link text-lg text-basic transition-smooth">Steaks</a>
+                        </li>
+                        <li class="footer__navigation-menu-item">
+                            <a href="#" class="footer__navigation-menu-link text-lg text-basic transition-smooth">Burgers</a>
+                        </li>
+                        <li class="footer__navigation-menu-item">
+                            <a href="#" class="footer__navigation-menu-link text-lg text-basic transition-smooth">Coctails</a>
+                        </li>
+                        <li class="footer__navigation-menu-item">
+                            <a href="#" class="footer__navigation-menu-link text-lg text-basic transition-smooth">Bar B Q</a>
+                        </li>
+                        <li class="footer__navigation-menu-item">
+                            <a href="#" class="footer__navigation-menu-link text-lg text-basic transition-smooth">Desserts</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="footer__news">
+                <h3 class="footer__news-title title-md title-basic">Newsletter</h3>
+                <div class="footer__news-feedback">
+                    <p class="footer__news-feedback-paragrath text-lg text-basic">Get recent news and updates.</p>
+
+                    <label for="footer-email" class="visually-hidden">Email Address</label>
+                    <input type="email" id="footer-email" class="footer__news-feedback-input  text-lg text-basic" placeholder="Email Address">
+
+                    <button class="footer__news-feedback-button button transition-smooth title-xs title-basic" type="submit">Subscribe</button>
+                </div>
+            </div>
+        </section>
+        <div class="footer__author container">
+            <p class="footer__author-name title-xs title-basic"><span>@2026TesteNest</span> | All shawontec3 Themesc</p>
+            <a href="#" class="footer__author-link  title-xs title-basic transition-smooth">Facebook</a>
+            <a href="#" class="footer__author-link  title-xs title-basic transition-smooth">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
