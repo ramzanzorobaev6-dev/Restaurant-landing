@@ -1,4 +1,4 @@
-# Tasty Nest Restaurant landing
+# Restaurant landing
 
 Адаптивный лендинг для ресторана с формой бронирования, меню, секцией новостей и специальных предложений.
 
@@ -9,4 +9,4 @@ HTML, CSS (Flexbox, Grid, медиа-запросы)
 GitHub Pages
 
 ## Ссылка
-https://ramzanzorobaev6-dev.github.io/Tasty-Nest/
+https://ramzanzorobaev6-dev.github.io/Restaurant-landing/
